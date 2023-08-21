@@ -1,0 +1,75 @@
+[14-Aug-2023 11:24:04 UTC] PHP Warning:  Undefined variable $conn in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 10
+[14-Aug-2023 11:24:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:10
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(10): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 10
+[14-Aug-2023 11:24:14 UTC] PHP Warning:  Undefined variable $conn in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 10
+[14-Aug-2023 11:24:14 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:10
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(10): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 10
+[14-Aug-2023 11:24:49 UTC] PHP Fatal error:  Uncaught Error: Class "koneksi" not found in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 3
+[14-Aug-2023 11:26:18 UTC] PHP Fatal error:  Uncaught Error: Class "koneksi" not found in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 3
+[14-Aug-2023 11:30:08 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[14-Aug-2023 11:30:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[14-Aug-2023 11:31:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[14-Aug-2023 11:31:43 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[14-Aug-2023 11:33:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[14-Aug-2023 11:34:46 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[15-Aug-2023 02:09:18 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[15-Aug-2023 02:09:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[15-Aug-2023 02:10:02 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[15-Aug-2023 02:10:42 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37
+[15-Aug-2023 02:11:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php:37
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php(37): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/view/includes/ajaxRequest.php on line 37

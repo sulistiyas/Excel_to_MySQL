@@ -1,0 +1,95 @@
+[26-Jul-2023 03:39:49 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paragonr/Excel_Data_Upload/config/koneksi.php on line 28
+[26-Jul-2023 03:39:49 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/paragonr/Excel_Data_Upload/controller/Users.php:22
+Stack trace:
+#0 /home/paragonr/Excel_Data_Upload/controller/Users.php(22): mysqli_query()
+#1 /home/paragonr/Excel_Data_Upload/config/proses.php(46): Users->login()
+#2 {main}
+  thrown in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 22
+[26-Jul-2023 03:40:13 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[26-Jul-2023 03:42:07 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[26-Jul-2023 03:42:43 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[26-Jul-2023 04:01:28 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[26-Jul-2023 04:23:54 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[26-Jul-2023 04:46:15 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[26-Jul-2023 04:53:00 UTC] PHP Warning:  Undefined array key "fullname" in /home/paragonr/Excel_Data_Upload/controller/Users.php on line 25
+[11-Aug-2023 18:04:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dg7kdgnqmw67/public_html/config/excel_reader2.php on line 100
+[11-Aug-2023 18:04:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dg7kdgnqmw67/public_html/config/excel_reader2.php on line 323
+[11-Aug-2023 18:04:41 UTC] PHP Notice:  Undefined index: fullname in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[11-Aug-2023 18:05:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.33. in /home/dg7kdgnqmw67/public_html/vendor/composer/platform_check.php on line 24
+[11-Aug-2023 18:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:63
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists()
+#1 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(85): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow()
+#2 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead()
+#3 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+#4 /home/dg7kdgnqmw67/public_html/controller/Participant.php(48): PhpOffice\PhpSpreadsheet\IOFactory::load()
+#5 /home/dg7kdgnqmw67/public_html/config/proses.php(23): Participant->upload()
+#6 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 63
+[11-Aug-2023 18:06:02 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[11-Aug-2023 18:06:13 UTC] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:63
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists()
+#1 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(85): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow()
+#2 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead()
+#3 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+#4 /home/dg7kdgnqmw67/public_html/controller/Participant.php(48): PhpOffice\PhpSpreadsheet\IOFactory::load()
+#5 /home/dg7kdgnqmw67/public_html/config/proses.php(23): Participant->upload()
+#6 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 63
+[11-Aug-2023 18:08:32 UTC] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:63
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists()
+#1 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(85): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow()
+#2 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead()
+#3 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+#4 /home/dg7kdgnqmw67/public_html/controller/Participant.php(48): PhpOffice\PhpSpreadsheet\IOFactory::load()
+#5 /home/dg7kdgnqmw67/public_html/config/proses.php(23): Participant->upload()
+#6 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 63
+[11-Aug-2023 18:09:31 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[11-Aug-2023 18:09:42 UTC] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:63
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists()
+#1 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(85): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow()
+#2 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead()
+#3 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+#4 /home/dg7kdgnqmw67/public_html/controller/Participant.php(48): PhpOffice\PhpSpreadsheet\IOFactory::load()
+#5 /home/dg7kdgnqmw67/public_html/config/proses.php(23): Participant->upload()
+#6 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 63
+[11-Aug-2023 18:12:05 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[11-Aug-2023 18:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:63
+Stack trace:
+#0 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists()
+#1 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(85): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow()
+#2 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead()
+#3 /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+#4 /home/dg7kdgnqmw67/public_html/controller/Participant.php(48): PhpOffice\PhpSpreadsheet\IOFactory::load()
+#5 /home/dg7kdgnqmw67/public_html/config/proses.php(23): Participant->upload()
+#6 {main}
+  thrown in /home/dg7kdgnqmw67/public_html/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 63
+[12-Aug-2023 03:49:10 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 04:03:15 UTC] PHP Warning:  Undefined array key "upload" in /home/dg7kdgnqmw67/public_html/config/proses.php on line 23
+[12-Aug-2023 04:03:15 UTC] PHP Warning:  Undefined array key "upload_excel" in /home/dg7kdgnqmw67/public_html/controller/Participant.php on line 42
+[12-Aug-2023 04:03:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dg7kdgnqmw67/public_html/controller/Participant.php on line 42
+[12-Aug-2023 04:04:46 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 04:38:36 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 04:44:52 UTC] PHP Warning:  Undefined array key "nama_kec" in /home/dg7kdgnqmw67/public_html/config/proses.php on line 46
+[12-Aug-2023 04:58:52 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 05:05:28 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 08:04:53 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 13:19:05 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 15:36:00 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[12-Aug-2023 15:47:24 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[13-Aug-2023 11:03:24 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[14-Aug-2023 06:35:57 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[14-Aug-2023 06:42:32 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[14-Aug-2023 09:36:47 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[14-Aug-2023 11:22:42 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[14-Aug-2023 11:23:59 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[15-Aug-2023 02:05:50 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[15-Aug-2023 06:03:05 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[15-Aug-2023 06:03:39 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[15-Aug-2023 06:03:39 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
+[15-Aug-2023 07:54:20 UTC] PHP Warning:  Undefined array key "fullname" in /home/dg7kdgnqmw67/public_html/controller/Users.php on line 25
